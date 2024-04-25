@@ -15,8 +15,8 @@ importers:
         specifier: 14.2.3
         version: 14.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       next-safe-action:
-        specifier: 7.0.0-next.29
-        version: 7.0.0-next.29(@typeschema/zod@0.13.3(zod@3.23.4))(next@14.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)
+        specifier: 7.0.0-next.30
+        version: 7.0.0-next.30(@typeschema/zod@0.13.3(zod@3.23.4))(next@14.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)
       react:
         specifier: ^18
         version: 18.2.0
@@ -1113,8 +1113,8 @@ packages:
   natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
 
-  next-safe-action@7.0.0-next.29:
-    resolution: {integrity: sha512-S/lIv5E25/PON1uZacaIC+QuvAMFKREGw1gXFCLXguf+cx7/ZPDZN43+Hcx4DJ3ucNfTt15b4Fp0GljKBmoEUg==}
+  next-safe-action@7.0.0-next.30:
+    resolution: {integrity: sha512-NV+0BUHptdNcaahfOOyIb9oNw0uQ27kSthqMOk9Xc1SMa52uzzFIExF/VUQlcP5JQTGx+zOySjF5o8Y5xJjTdg==}
     engines: {node: '>=18.17'}
     peerDependencies:
       next: '>= 14.0.0'
@@ -2763,7 +2763,7 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  next-safe-action@7.0.0-next.29(@typeschema/zod@0.13.3(zod@3.23.4))(next@14.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0):
+  next-safe-action@7.0.0-next.30(@typeschema/zod@0.13.3(zod@3.23.4))(next@14.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0):
     dependencies:
       '@typeschema/main': 0.13.9(@typeschema/zod@0.13.3(zod@3.23.4))
       next: 14.2.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
