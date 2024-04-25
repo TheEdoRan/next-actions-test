@@ -10,12 +10,9 @@ const schema = z.object({
 });
 
 export const loginUser = ac
-	// .metadata({ actionName: "loginUser" })
+	.metadata({ actionName: "loginUser" })
 	.schema(schema, { formatValidationErrors: flattenValidationErrors })
 	.action(async (obj) => {
-		console.log("OBJ ->");
-		console.dir(obj, { depth: null });
-
 		return {
 			message: `Hey ${obj.parsedInput.username}, successfully logged in!`,
 		};
